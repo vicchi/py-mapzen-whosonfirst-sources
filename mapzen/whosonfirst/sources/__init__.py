@@ -30,4 +30,32 @@ def is_valid_source(k):
 
     return False
 
+def get_source_by_name(n):
 
+    id = __NAMES__.get(n, None)
+
+    if not id:
+        return None
+
+    return source(id)
+
+def get_source_by_prefix(p):
+
+    id = __PREFIXES__.get(p, None)
+
+    if not id:
+        return None
+
+    return source(id)
+
+class source:
+
+    def __init__(self, id):
+
+        if not __SPEC__.get(id, False):
+            raise Exception, "Invalid source ID"
+
+        self.details = __SPEC__[id]
+
+
+        

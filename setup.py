@@ -8,7 +8,7 @@ desc = open("README.md").read(),
 setup(
     name='mapzen.whosonfirst.sources',
     namespace_packages=['mapzen', 'mapzen.whosonfirst', 'mapzen.whosonfirst.sources'],
-    version='0.02',
+    version='0.03',
     description='Simple Python wrapper for managing Who\'s On First sources',
     author='Mapzen',
     url='https://github.com/whosonfirst/py-mapzen-whosonfirst-sources',
@@ -19,5 +19,5 @@ setup(
     packages=packages,
     scripts=[
         ],
-    download_url='https://github.com/whosonfirst/py-mapzen-whosonfirst-sources/releases/tag/v0.02',
+    download_url='https://github.com/whosonfirst/py-mapzen-whosonfirst-sources/releases/tag/v0.03',
     license='BSD')
