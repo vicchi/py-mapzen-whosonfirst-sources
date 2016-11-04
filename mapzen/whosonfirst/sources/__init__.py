@@ -1,6 +1,3 @@
-# https://pythonhosted.org/setuptools/setuptools.html#namespace-packages
-__import__('pkg_resources').declare_namespace(__name__)
-
 # https://github.com/whosonfirst/whosonfirst-sources/blob/master/data/sources-spec-latest.json
 # (20160610)
 
