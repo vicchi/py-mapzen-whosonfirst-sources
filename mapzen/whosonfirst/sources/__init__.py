@@ -1,4 +1,4 @@
-import spec
+import spec	# as in: utils/mk-spec.py > mapzen/whosonfirst/sources/spec.py
 
 __NAMES__ = {}
 __PREFIXES__ = {}
