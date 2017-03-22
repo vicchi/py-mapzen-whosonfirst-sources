@@ -24,10 +24,6 @@ setup(
     description='Simple Python wrapper for managing Who\'s On First sources',
     author='Mapzen',
     url='https://github.com/whosonfirst/py-mapzen-whosonfirst-sources',
-    install_requires=[
-        ],
-    dependency_links=[
-        ],
     packages=packages,
     scripts=[
         ],

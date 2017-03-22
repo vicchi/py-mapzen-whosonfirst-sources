@@ -2,6 +2,12 @@
 
 Simple Python wrapper for managing Who's On First data sources
 
+## Install
+
+```
+sudo pip install -r requirements.txt .
+```
+
 ## Usage
 
 _Please write me_
