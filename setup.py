@@ -19,6 +19,7 @@ version = open("VERSION").read()
 
 setup(
     name='mapzen.whosonfirst.sources',
+    python_requires='>=3.0',
     namespace_packages=['mapzen', 'mapzen.whosonfirst'],
     version=version,
     description='Simple Python wrapper for managing Who\'s On First sources',
