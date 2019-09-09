@@ -53,7 +53,7 @@ class source:
     def __init__(self, id):
 
         if not spec.__SPEC__.get(id, False):
-            raise Exception, "Invalid source ID"
+            raise Exception("Invalid source ID")
 
         self.details = spec.__SPEC__[id]
 
