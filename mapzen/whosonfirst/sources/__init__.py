@@ -1,4 +1,4 @@
-import spec	# as in: utils/mk-spec.py > mapzen/whosonfirst/sources/spec.py
+from . import spec	# as in: utils/mk-spec.py > mapzen/whosonfirst/sources/spec.py
 
 __NAMES__ = {}
 __PREFIXES__ = {}
@@ -62,7 +62,7 @@ class source:
 
     def __str__(self):
         return self.stringify()
-        
+
     def stringify(self):
 
         fullname = self.details['fullname']
@@ -71,7 +71,7 @@ class source:
 
         if not lookup:
             return "%s (%s)" % (fullname, name)
-        
+
         return "%s (%s)" % (fullname, lookup)
 
     def lookup_key(self):
