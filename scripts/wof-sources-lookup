@@ -16,7 +16,7 @@ if __name__ == '__main__':
 
     options, args = opt_parser.parse_args()
 
-    if options.verbose:	
+    if options.verbose:
         logging.basicConfig(level=logging.DEBUG)
     else:
         logging.basicConfig(level=logging.INFO)
@@ -42,5 +42,3 @@ if __name__ == '__main__':
         if not source:
             source = mapzen.whosonfirst.sources.get_source_by_id(src)
             logging.info("get %s by id %s" % (src, source))
-
-                     
